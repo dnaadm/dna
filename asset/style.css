@@ -1,0 +1,354 @@
+/* Fonte Bree Serif importada */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+/* Estilos globais */
+header {
+    background-color: #122239;
+    padding: 1dvw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main {
+    height: auto; /* Ajustado para viewport height */
+}
+.header1 {
+    display: flex;
+    align-items: center;
+}
+
+.header1 img {
+    width: 8dvw;
+}
+
+.header1 h1 {
+    text-align: center;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    margin: 0;
+    background: -webkit-linear-gradient(#3AC5AB, #1A7AF5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header2 {
+    display: flex;
+    align-items: center;
+}
+
+.header2 a {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8rem;
+    margin-left: 0.7dvw;
+    color: #ffffff;
+    text-decoration: inherit;
+}
+
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.dropdown-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #122239;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.dropdown-menu a {
+    padding: 10px 15px;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.8rem;
+    margin-left: 0.7dvw;
+    color: #ffffff;
+    text-decoration: inherit;
+}
+
+.fase1{
+    height: auto;
+}
+
+.h1chamada {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    margin: 0;
+    color: black;
+}
+.h1chamada-branco{
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+.pchamada {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+    color: black;
+
+    max-width: 36dvw;
+}
+
+.dnaadm {
+    text-align: center;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+    margin: 0;
+    background: -webkit-linear-gradient(#3AC5AB, #1A7AF5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.divDias {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dias {
+    display: flex;
+}
+
+.h1dias {
+    display: flex;
+    flex-direction: column;
+}
+
+.day, .month {
+    font-size: 8rem; 
+}
+
+.separator {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg); /* Para girar a barra no sentido correto */
+    margin: 0 5px; /* Espaçamento entre o dia, barra e o mês */
+    font-size: 8rem; /* Mesmo tamanho da fonte */
+    background: -webkit-linear-gradient(#3AC5AB, #1A7AF5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.teste {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(-70px);
+    }
+    50% {
+        transform: translatey(-4px);
+    }
+    100% {
+        transform: translatey(-70px);
+    }
+}
+
+.logoPrincipal {
+    width: 30dvw;
+    margin-right: 1dvw;
+    animation: float 2s ease-in-out infinite;
+}
+
+.imgRetangulo{
+    max-width: 90dvw;
+    top: 10dvh;
+}
+
+.fase2{
+    background-color: #122239;
+    height: auto;
+}
+.fase2H1{
+    margin-top: 2dvh;
+    position: absolute;
+    font-size: 7rem !important;
+}
+.fase2H1s{
+    margin-top: 1.7dvh;
+     margin-right: 0.5dvw;
+    position: absolute;
+    font-size: 7rem !important;
+    background: -webkit-linear-gradient(90deg, rgb(0, 195, 255) 34%, rgb(0, 158, 158) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.conteudo-fase2{
+    padding-top: 50dvh;
+    display: flex;
+    justify-content: center;
+    width: 100dvw;
+}
+.fase2Sobre{
+    text-align: center;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+    margin: 0;
+    color: #ffffff;
+    max-width: 80dvw;
+    padding-bottom: 300px;
+
+}
+.fase3{
+    font-size: 7rem !important;
+    display: flex;
+    justify-content: center;
+    margin: none;
+    padding: none;
+}
+.fase3H1{
+    margin-top: 14dvh;
+    position: absolute;
+    font-size: 7rem !important;
+}
+.fase3H1s{
+    margin-top: 14.7dvh;
+    margin-right: 0.5dvw;
+    position: absolute;
+    font-size: 7rem !important;
+    background: -webkit-linear-gradient(90deg, rgb(0, 195, 255) 34%, rgb(0, 158, 158) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.imgPoligono{
+        max-width: 78dvw;
+}
+/* Media Queries para diferentes tamanhos de tela */
+@media (max-width: 1200px) {
+    .header1 h1, .dnaadm {
+        font-size: 1.5rem;
+    }
+    .divDias{
+        flex-direction: column;
+    }
+    .fase1{
+        height: 74dvh;
+    }
+    .pchamada {
+        max-width: 88dvw;
+    }
+    .fase2H1{
+        font-size: 7.4dvw !important;
+    }
+    .imgRetangulo{
+        top: 79dvh;
+        position: absolute;
+        width: 97dvw !important;
+        max-width: none !important;
+    }
+    .conteudo-fase2{
+        padding-top: 25dvh;
+    }
+    .fase2Sobre{
+        font-size: 1.5rem;
+    }
+    @keyframes float {
+        0% {
+            transform: translatey(0px);
+        }
+        50% {
+            transform: translatey(20px);
+        }
+        100% {
+            transform: translatey(0px);
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .header1 img {
+        width: 6dvw;
+    }
+    .header2 a {
+        font-size: 1.5rem;
+    }
+    .h1chamada {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header1 h1, .dnaadm {
+        font-size: 2rem;
+    }
+    .logoPrincipal {
+        width: 40dvw;
+    }
+    .h1chamada {
+        font-size: 2.8rem;
+    }
+    .pchamada {
+        font-size: 1.5rem;
+    }
+    .header2 {
+        display: none; /* Esconde itens grandes */
+    }
+    .menu-icon {
+        display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    .header1 h1 {
+        font-size: 1.5rem;
+    }
+    .header1 img {
+        width: 5dvw;
+    }
+    .h1chamada, .dnaadm {
+        font-size: 2.2rem;
+    }
+    .pchamada {
+        font-size: 1.2rem;
+    }
+    .day, .month, .separator {
+        font-size: 4rem;
+    }
+    .logoPrincipal {
+        width: 50dvw;
+        animation: float 4s ease-in-out infinite;
+    }
+}
+
+/* Ajuste adicional para telas extremamente pequenas */
+@media (max-width: 400px) {
+    .header1 h1 {
+        font-size: 1.2rem;
+    }
+    .h1chamada, .dnaadm {
+        font-size: 1.8rem;
+    }
+    .pchamada {
+        font-size: 1rem;
+    }
+    .day, .month, .separator {
+        font-size: 3rem;
+    }
+}
