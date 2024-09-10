@@ -62,7 +62,7 @@ function buscarDadosOrdenados() {
 // Manipulador de eventos para o botão "Enviar"
 document.getElementById("btnEnviar").addEventListener("click", () => {
     const senha = document.getElementById("senha").value;
-    if (senha === "lucaslindo") { // Verifique sua senha aqui
+    if (senha === "10admdna3") { // Verifique sua senha aqui
         buscarDadosOrdenados();
     } else {
         alert("Senha incorreta!");
